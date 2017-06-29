@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<title>Code</title>
+
+<style>
+  #showMe {
+    background: lime;
+    padding: 20px;
+    display: none; 
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "button" ).click(function() {
+  
+    
+    $( "#showMe" ).fadeIn();
+    
+  });
+  
+});
+</script>
+<button>Show the magical password</button>
+<p>My password is...</p>
+<p id="showMe">Really......? I almost had you ha ha!!!!</p>
